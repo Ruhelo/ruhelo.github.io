@@ -21,7 +21,7 @@
 
 <article class="legal">
 <h1>Datenschutzerklärung für Kontralo</h1>
-<p>Stand: 20. Oktober 2026</p>
+<p>Stand: 21. Oktober 2026</p>
 
 <h2>1. Verantwortlicher</h2>
 <p>Khaled Hashimi (Ruhelo), An der Lingenmühle, 41061 Mönchengladbach, Deutschland<br>
@@ -33,11 +33,13 @@ E-Mail: <a href="mailto:ruhelo.apps@gmail.com">ruhelo.apps@gmail.com</a></p>
   <li>Es gibt <strong>kein Nutzerkonto und keinen Server</strong> von uns. Wir erhalten deine Daten nicht und können sie nicht einsehen.</li>
   <li>Kontralo enthält <strong>keine Werbung</strong> und <strong>keine Analyse- oder Tracking-Dienste</strong>.</li>
   <li>Installation, Updates und Käufe laufen über <strong>Google Play</strong> (siehe Abschnitt 5).</li>
+  <li>Mit Kontralo Pro kannst du deine Daten <strong>Ende-zu-Ende verschlüsselt in deiner eigenen Cloud</strong> (Google Drive oder Nextcloud/WebDAV) synchronisieren – nur, wenn du das einschaltest (siehe Abschnitt 6).</li>
 </ul>
 
 <h2>3. Daten in der App</h2>
 <p>Alles, was du in Kontralo einträgst oder scannst (z. B. Verträge, Anbieter, Beträge, Fristen, Notizen, gescannte Briefe, Fotos und PDF-Dateien), wird ausschließlich auf deinem Gerät gespeichert – in einer verschlüsselten Datenbank und einem verschlüsselten Datei-Speicher. Die Schlüssel liegen im geschützten Schlüsselspeicher deines Geräts (Android Keystore).</p>
 <p>Das automatische Android-Cloud-Backup ist für Kontralo ausgeschaltet. Der Brief-Scanner arbeitet vollständig auf deinem Gerät; Fotos werden dabei nicht übertragen. Erinnerungen an Fristen werden auf deinem Gerät berechnet und angezeigt.</p>
+<p><strong>Texterkennung (Kontralo Pro):</strong> Damit du in Dokumenten suchen kannst, erkennt Kontralo den Text gescannter Briefe und Bilder direkt auf deinem Gerät (mit der freien Software Tesseract). Dabei wird nichts übertragen. Der erkannte Text wird in der verschlüsselten Datenbank gespeichert.</p>
 <p>Wenn du Kontralo deinstallierst, werden diese Daten von deinem Gerät gelöscht. Ohne ein eigenes Backup lassen sie sich danach nicht wiederherstellen – auch nicht durch uns.</p>
 
 <h2>4. Berechtigungen</h2>
@@ -45,7 +47,7 @@ E-Mail: <a href="mailto:ruhelo.apps@gmail.com">ruhelo.apps@gmail.com</a></p>
   <li><strong>Kamera:</strong> nur zum Scannen von Briefen, wenn du den Scanner öffnest. Die Bilder bleiben auf deinem Gerät.</li>
   <li><strong>Benachrichtigungen:</strong> für Erinnerungen an Kündigungsfristen und Backups.</li>
   <li><strong>Fingerabdruck/Gesicht (Biometrie):</strong> nur, wenn du die App-Sperre einschaltest. Die Prüfung übernimmt Android; Kontralo erhält keine biometrischen Daten.</li>
-  <li><strong>Internet und Netzwerkstatus:</strong> werden für den Kauf von Kontralo Pro über Google Play benötigt (Google Play Billing). Kontralo selbst überträgt keine Inhalte deiner Verträge oder Dokumente.</li>
+  <li><strong>Internet und Netzwerkstatus:</strong> für den Kauf von Kontralo Pro über Google Play und – nur wenn du sie einschaltest – für die Synchronisation mit deiner eigenen Cloud. Inhalte deiner Verträge und Dokumente verlassen dein Gerät dabei nur verschlüsselt (siehe Abschnitt 6).</li>
 </ul>
 
 <h2>5. Google Play</h2>
@@ -53,20 +55,27 @@ E-Mail: <a href="mailto:ruhelo.apps@gmail.com">ruhelo.apps@gmail.com</a></p>
 <p>Die von Google vorgeschriebene Kauf-Bibliothek (Google Play Billing) kann technische Diagnosedaten zum Kaufvorgang an Google übermitteln. Außerdem stellt uns Google zusammengefasste, anonyme Statistiken zu Abstürzen und zur Leistung der App bereit, sofern du in den Android-Einstellungen der Weitergabe von Nutzungs- und Diagnosedaten zugestimmt hast. Daraus können wir keine einzelnen Personen erkennen.</p>
 <p>Weitere Informationen: <a href="https://policies.google.com/privacy" rel="noopener">Datenschutzerklärung von Google</a>.</p>
 
-<h2>6. Backup, Export und Teilen</h2>
+<h2>6. Cloud-Synchronisation (Kontralo Pro, optional)</h2>
+<p>Unter „Speicherort“ kannst du deine Daten mit deiner eigenen Cloud synchronisieren. Bevor etwas dein Gerät verlässt, wird es dort mit einem Schlüssel verschlüsselt, der durch dein Master-Passwort geschützt ist (Ende-zu-Ende-Verschlüsselung). Der Cloud-Anbieter speichert nur verschlüsselte Dateien in einem Ordner „Kontralo“ und kann deren Inhalt nicht lesen. Sichtbar bleiben technische Angaben wie Dateinamen, Größe und Zeitpunkt. Wir selbst erhalten dabei keine Daten. Dein Master-Passwort kennen wir nicht und können es nicht zurücksetzen.</p>
+<p><strong>Google Drive:</strong> Für die Verbindung meldest du dich über Google an. Kontralo fordert nur zwei Berechtigungen an: Zugriff auf die <strong>von Kontralo selbst angelegten Dateien</strong> in deinem Google Drive (Bereich „drive.file“ – Kontralo sieht deine übrigen Dateien nicht) und deine <strong>E-Mail-Adresse</strong>, damit die App anzeigen kann, welches Konto verbunden ist. Die E-Mail-Adresse wird nur verschlüsselt auf deinem Gerät gespeichert. Mit „Sync beenden“ gibst du die Freigabe zurück; außerdem kannst du sie jederzeit in deinem Google-Konto widerrufen. Für die Anmeldung nutzt Kontralo die Google-Play-Dienste auf deinem Gerät. Die Speicherung in Google Drive unterliegt den <a href="https://policies.google.com/privacy" rel="noopener">Datenschutzbestimmungen von Google</a>.</p>
+<p>Die Nutzung und Übertragung von Informationen, die Kontralo von Google-APIs erhält, entspricht der <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung („Limited Use“). Kontralo verwendet diese Daten ausschließlich, um deine verschlüsselten Kontralo-Dateien zu speichern und abzugleichen, gibt sie nicht weiter und nutzt sie nicht für Werbung.</p>
+<p><strong>Nextcloud/WebDAV:</strong> Du gibst die Adresse deines Servers, deinen Benutzernamen und ein App-Passwort ein. Diese Angaben werden verschlüsselt auf deinem Gerät gespeichert und nur an deinen Server gesendet, und zwar ausschließlich über eine verschlüsselte Verbindung (HTTPS). Für die Daten auf dem Server ist dessen Betreiber verantwortlich.</p>
+<p>Gelöschte Einträge und Dokumente werden in der Cloud 30 Tage aufbewahrt (Papierkorb), damit du sie auf allen Geräten wiederherstellen kannst, und danach entfernt. Rechtsgrundlage ist die Erfüllung des Vertrags über Kontralo Pro bzw. deine Einwilligung durch das Einschalten (Art. 6 Abs. 1 lit. a und b DSGVO).</p>
+
+<h2>7. Backup, Export und Teilen</h2>
 <p>Ein Backup, einen Export oder das Teilen von Dokumenten startest nur du selbst. Du wählst auch den Speicherort bzw. die Ziel-App (z. B. Downloads, Google Drive, E-Mail). Backups sind mit deinem Passwort verschlüsselt; wir kennen dieses Passwort nicht. Der Export (Tabelle und Dokumente) ist unverschlüsselt – darauf weist die App vorher hin. Für Daten, die du an andere Apps oder Dienste weitergibst, gelten deren Datenschutzbestimmungen.</p>
 
-<h2>7. Kontakt per E-Mail</h2>
+<h2>8. Kontakt per E-Mail</h2>
 <p>Wenn du uns per E-Mail schreibst, verarbeiten wir deine E-Mail-Adresse und den Inhalt deiner Nachricht nur, um deine Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. f DSGVO). Wir löschen die Nachricht, sobald sie erledigt ist und keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
 
-<h2>8. Diese Website</h2>
+<h2>9. Diese Website</h2>
 <p>Diese Website wird über GitHub Pages bereitgestellt (GitHub, Inc., USA). Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse in Server-Protokollen, um die Seite auszuliefern und zu schützen. Die Website verwendet keine Cookies, keine Analyse-Dienste und lädt keine Schriften oder Inhalte von Dritten. Eine Übermittlung in die USA stützt sich auf das EU-US Data Privacy Framework. Weitere Informationen: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
 
-<h2>9. Deine Rechte</h2>
+<h2>10. Deine Rechte</h2>
 <p>Du hast nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Da wir keine Daten aus der App erhalten, betrifft das in der Regel nur E-Mails, die du uns schickst. Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren, z. B. bei der Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.</p>
 
-<h2>10. Änderungen</h2>
-<p>Wenn sich Kontralo ändert (z. B. durch neue Funktionen wie Cloud-Synchronisation in deiner eigenen Cloud), passen wir diese Erklärung an. Es gilt die jeweils hier veröffentlichte Fassung.</p>
+<h2>11. Änderungen</h2>
+<p>Wenn sich Kontralo ändert, passen wir diese Erklärung an. Es gilt die jeweils hier veröffentlichte Fassung.</p>
 </article>
 
 </main>

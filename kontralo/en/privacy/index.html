@@ -21,7 +21,7 @@
 
 <article class="legal">
 <h1>Privacy policy for Kontralo</h1>
-<p>Last updated: 20 October 2026</p>
+<p>Last updated: 21 October 2026</p>
 
 <h2>1. Controller</h2>
 <p>Khaled Hashimi (Ruhelo), An der Lingenmühle, 41061 Mönchengladbach, Germany<br>
@@ -33,11 +33,13 @@ Email: <a href="mailto:ruhelo.apps@gmail.com">ruhelo.apps@gmail.com</a></p>
   <li>There is <strong>no user account and no server</strong> run by us. We do not receive your data and cannot see it.</li>
   <li>Kontralo contains <strong>no ads</strong> and <strong>no analytics or tracking services</strong>.</li>
   <li>Installation, updates and purchases are handled by <strong>Google Play</strong> (see section 5).</li>
+  <li>With Kontralo Pro you can synchronise your data <strong>end-to-end encrypted with your own cloud</strong> (Google Drive or Nextcloud/WebDAV) – only if you turn this on (see section 6).</li>
 </ul>
 
 <h2>3. Data in the app</h2>
 <p>Everything you enter or scan in Kontralo (e.g. contracts, providers, amounts, deadlines, notes, scanned letters, photos and PDF files) is stored only on your device – in an encrypted database and an encrypted file store. The keys are kept in your device's protected key store (Android Keystore).</p>
 <p>Android's automatic cloud backup is turned off for Kontralo. The letter scanner works entirely on your device; photos are not transmitted. Deadline reminders are calculated and shown on your device.</p>
+<p><strong>Text recognition (Kontralo Pro):</strong> So that you can search your documents, Kontralo recognises the text of scanned letters and images directly on your device (using the free software Tesseract). Nothing is transmitted. The recognised text is stored in the encrypted database.</p>
 <p>If you uninstall Kontralo, this data is deleted from your device. Without a backup of your own it cannot be restored afterwards – not even by us.</p>
 
 <h2>4. Permissions</h2>
@@ -45,7 +47,7 @@ Email: <a href="mailto:ruhelo.apps@gmail.com">ruhelo.apps@gmail.com</a></p>
   <li><strong>Camera:</strong> only for scanning letters when you open the scanner. The images stay on your device.</li>
   <li><strong>Notifications:</strong> for reminders about notice periods and backups.</li>
   <li><strong>Fingerprint/face (biometrics):</strong> only if you turn on the app lock. Android performs the check; Kontralo receives no biometric data.</li>
-  <li><strong>Internet and network state:</strong> needed to buy Kontralo Pro through Google Play (Google Play Billing). Kontralo itself does not transmit the content of your contracts or documents.</li>
+  <li><strong>Internet and network state:</strong> for buying Kontralo Pro through Google Play and – only if you turn it on – for synchronising with your own cloud. The content of your contracts and documents only leaves your device encrypted (see section 6).</li>
 </ul>
 
 <h2>5. Google Play</h2>
@@ -53,20 +55,27 @@ Email: <a href="mailto:ruhelo.apps@gmail.com">ruhelo.apps@gmail.com</a></p>
 <p>The purchase library required by Google (Google Play Billing) may send technical diagnostic data about the purchase process to Google. Google also provides us with aggregated, anonymous statistics about crashes and app performance if you have agreed to share usage and diagnostics data in your Android settings. We cannot identify individuals from these statistics.</p>
 <p>More information: <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
 
-<h2>6. Backup, export and sharing</h2>
+<h2>6. Cloud synchronisation (Kontralo Pro, optional)</h2>
+<p>Under "Storage location" you can synchronise your data with your own cloud. Before anything leaves your device, it is encrypted there with a key protected by your master password (end-to-end encryption). The cloud provider only stores encrypted files in a "Kontralo" folder and cannot read their content. Technical details such as file names, size and time remain visible. We do not receive any data. We do not know your master password and cannot reset it.</p>
+<p><strong>Google Drive:</strong> To connect, you sign in with Google. Kontralo only requests two permissions: access to the <strong>files Kontralo itself creates</strong> in your Google Drive (scope "drive.file" – Kontralo cannot see your other files) and your <strong>email address</strong>, so the app can show which account is connected. The email address is only stored encrypted on your device. "Stop sync" revokes the access; you can also revoke it at any time in your Google account. Kontralo uses Google Play services on your device for signing in. Storage in Google Drive is subject to <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</p>
+<p>Kontralo's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements. Kontralo uses this data solely to store and synchronise your encrypted Kontralo files, does not share it and does not use it for advertising.</p>
+<p><strong>Nextcloud/WebDAV:</strong> You enter your server address, your user name and an app password. These details are stored encrypted on your device and are only sent to your server, exclusively over an encrypted connection (HTTPS). The operator of the server is responsible for the data stored there.</p>
+<p>Deleted entries and documents are kept in the cloud for 30 days (bin) so that you can restore them on all devices, and are removed afterwards. The legal basis is the performance of the contract for Kontralo Pro or your consent by turning the feature on (Art. 6(1)(a) and (b) GDPR).</p>
+
+<h2>7. Backup, export and sharing</h2>
 <p>Only you start a backup, an export or sharing of documents, and you choose the storage location or target app (e.g. Downloads, Google Drive, email). Backups are encrypted with your password; we do not know this password. The export (table and documents) is not encrypted – the app tells you before you start it. Data you pass on to other apps or services is subject to their privacy policies.</p>
 
-<h2>7. Contact by email</h2>
+<h2>8. Contact by email</h2>
 <p>If you write to us by email, we process your email address and the content of your message only to answer your request (Art. 6(1)(b) or (f) GDPR). We delete the message once it has been dealt with, unless statutory retention obligations apply.</p>
 
-<h2>8. This website</h2>
+<h2>9. This website</h2>
 <p>This website is hosted on GitHub Pages (GitHub, Inc., USA). When you visit it, GitHub processes technically necessary data such as your IP address in server logs in order to deliver and protect the site. The website uses no cookies, no analytics and does not load fonts or content from third parties. Transfers to the USA are based on the EU-US Data Privacy Framework. More information: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</p>
 
-<h2>9. Your rights</h2>
+<h2>10. Your rights</h2>
 <p>Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. As we do not receive any data from the app, this usually only concerns emails you send us. You can also lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia.</p>
 
-<h2>10. Changes</h2>
-<p>If Kontralo changes (e.g. through new features such as synchronisation with your own cloud), we will update this policy. The version published here applies.</p>
+<h2>11. Changes</h2>
+<p>If Kontralo changes, we will update this policy. The version published here applies.</p>
 </article>
 
 </main>
