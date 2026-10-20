@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" role="img" aria-label="Kontralo">
+  <defs><linearGradient id="g" x1="18" y1="18" x2="90" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6863F6"/><stop offset="1" stop-color="#3D32C4"/></linearGradient></defs>
+  <rect x="18" y="18" width="72" height="72" rx="21" fill="url(#g)"/>
+  <g transform="translate(54 54) scale(0.86) translate(-54 -54) translate(-2.9 0)" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 32L40 76"/><path d="M42 58L66 34"/><path d="M50 56L61 70L74 52"/>
+  </g>
+</svg>
